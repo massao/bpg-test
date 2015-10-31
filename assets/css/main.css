@@ -1,0 +1,18 @@
+.holder-content {
+	margin: 0 auto;
+	max-width: 1366px;
+	overflow: hidden;
+	width: 80%;
+}
+
+.info {
+	clear: both;
+	overflow: hidden;
+	width: 100%;
+}
+
+.assets {
+	float: left;
+	overflow: hidden;
+	width: 50%;
+}
