@@ -1,8 +1,11 @@
 # bpg testing
 ---
 
-Repository created for testing bpg image format.
-For a better explanation on the libs used, refer to the their pages.
+Repository created for testing the bpg image format.
+For a better explanation on the libs used, check the their pages.
+
+bpgs are generated with the default configuration
+Sizes of gifs can be reduced with optimizations, I tried to keep the gif with the quality similar to the video
 
 ## Folder structure
 ```
@@ -17,7 +20,7 @@ assets -- Folder with all the assets
 |-js
 |-videos
 ```
-Folder "frames" only used to generate bpg files and folder "gif" only used to check the gif size
+Folder "frames" only used to generate bpg files
 
 ## Workflow
 1. Extracted the frames as `.png` from videos with [ffmpeg](https://www.ffmpeg.org/), using the following command:
